@@ -1,0 +1,60 @@
+.Review {
+    border: 1px solid #e6e6e6;
+    padding:40px;
+    margin: 20px 0px;
+    background: #f7f7f7;
+    box-shadow: 0px 2px 3px #000;
+    width: calc(50% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ReviewInfo {
+    margin-top: 40px;
+    padding-left: 10px;
+    border-top:1px solid rgb(185, 185, 185);
+    padding-top: 40px;
+}
+.ReviewsWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Game, .Reviews  {
+    padding: 40px;
+}
+
+.Game {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    padding: 0px 40px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Game h1 {
+    width: 100%;
+}
+
+.Game a {
+    color: #fff;
+    width: auto;
+    white-space: nowrap;
+}
+
+.Button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #eda11c;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    box-shadow: 1px 1px 2px #000;
+    cursor: pointer;
+    float: right;
+  }
+  .Button:hover { 
+    background-color: #e89300;
+  }

@@ -1,0 +1,93 @@
+.Details {
+    margin: 35px;
+    border: 1px solid #dedcdc;    
+}
+
+
+.Details h3 {
+    font-size: 1.5em;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    margin: 0px;
+}
+
+.Filter {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Details input {
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.Fetch {
+    padding: 20px;
+    align-self: normal;
+    background: #eda11c;
+    color: #fff;
+    width: auto;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.Details button:hover {
+    background-color: #e89300;
+}
+
+.Data1, .Data2 {
+    width:50%;
+    margin: 0px 0px 40px 0px
+}
+
+
+
+.Data {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 20px;
+}
+
+.Reviews h2 {
+    font-size: 60px;
+}
+
+.Reviews p {
+    font-size: 20px;
+}
+
+.PvN {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.PvN h3 {
+    font-size: 40px;
+    background: #fff;
+    color: #000;
+}
+
+.PvN > div {
+    width: 50%;
+}
+
+.Nothingtosee {
+    margin: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-style: italic;
+}
+
+.From {
+    display: flex;
+    flex-direction: column;
+}
