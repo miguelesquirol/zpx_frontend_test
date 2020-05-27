@@ -11,9 +11,9 @@ The page should load on http://localhost:3000/
 
 ## Explanation
 
-This project was created on React with some minimal extra dependencies. I didn't want to use any big dependency like React-Table to create a whole Dashboard, because the exercise was mostly to show a demo pull info from the API and to display on the site.
+This project was created on React with some minimal extra dependencies. I didn't want to use any big dependency like _React-Table_ to create a whole Dashboard, because the exercise was mostly to show a demo pull info from the API and to display on the site.
 
-I used the framework d3 for the graphics.
+I used the framework D3 for the graphics, and a couple of small dependencies for practical purposes like time formating, or data range selection.
 
 ## Needs Work
 
